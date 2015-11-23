@@ -1,19 +1,25 @@
 site_name: stack - The Haskell Tool Stack
+#XXX reorganize the pages (these copied from old index TOC)
 pages:
-- 'Home': README.md
-- 'Guide': doc/GUIDE.md
-- 'YAML configuration': doc/yaml_configuration.md
-- 'FAQ': doc/faq.md
-- 'Build command': doc/build_command.md
-- 'Contributers guide': CONTRIBUTING.md
-- 'Architecture': doc/architecture.md
-- 'Dependency visualization': doc/dependency_visualization.md
-- 'Docker integration': doc/docker_integration.md
-- 'Install and upgrade': doc/install_and_upgrade.md
-- 'Maintainer guide': doc/MAINTAINER_GUIDE.md
-- 'Non-standard project initialization': doc/nonstandard_project_init.md
-- 'Shell auto-complation': doc/shell_autocompletion.md
-- 'Signing key': doc/SIGNING_KEY.md
-- 'Changelog': ChangeLog.md
+- 'Home': index.md
+- 'Project documentation':
+    - 'Changelog': ChangeLog.md
+    - 'Contributers guide': CONTRIBUTING.md
+    - 'Maintainer guide': MAINTAINER_GUIDE.md
+    - 'Signing key': SIGNING_KEY.md
+- 'Tool documentation':
+    - 'Build command': build_command.md
+    - 'Dependency visualization': dependency_visualization.md
+    - 'Docker integration': docker_integration.md
+    - 'FAQ': faq.md
+    - 'GHCJS': stack_and_ghcjs.md
+    - 'Install/upgrade': install_and_upgrade.md
+    - 'Non-standard project initialization': nonstandard_project_init.md
+    - 'Shell auto-complation': shell_autocompletion.md
+    - 'User guide': GUIDE.md
+    - 'YAML configuration': yaml_configuration.md
+- 'Advanced documentation':
+    - 'Architecture': architecture.md
 theme: readthedocs
-docs_dir: '.'
+docs_dir: 'doc'
+site_dir: '.site'

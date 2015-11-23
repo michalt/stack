@@ -1,3 +1,7 @@
+XXX is it a good idea to link have this in doc/?
+XXX What bout links to other documents? (`mkdocs build` will help find broken ones, should be part of release process)
+XXX should links to docs use the release's tag?
+
 ## 0.1.8.0
 
 Major changes:
